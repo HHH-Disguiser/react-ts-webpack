@@ -1,0 +1,40 @@
+let arr = [
+     {
+          id: uuid(),
+          by: "dhouston",
+          text:
+            "第一条评论 I think: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          time: "8-hours-ago",
+          isFold: true,
+          child: [
+              {
+                by: "wliopwz5",
+                child:[
+                    by: "17xb4m3n"
+                    child:[],
+                    id: "45e42b158886fa44b95899146f8e959ed476"
+                    isFold: true
+                    replyStats: false
+                    text: "2222"
+                    time: "2020-06-09 16:07:06"
+                ]
+                id: "83383d206cdb544ff2e9711157f6a34fe50c"
+                isFold: true
+                replyStats: false
+                text: "1111"
+                time: "2020-06-09 16:07:01"
+              }
+          ],
+          replyStats: false,
+        },
+        {
+          id: uuid(),
+          by: "norvig",
+          text:
+            "第二条评论 I think: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          time: "34-hours-ago",
+          isFold: true,
+          child: [], //回复列表
+          replyStats: false,
+        },
+]

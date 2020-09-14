@@ -1,0 +1,8 @@
+body {
+    background: #ccc;
+}
+
+.text {
+    color: red;
+    transform: translateX(100px);
+}

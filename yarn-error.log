@@ -1,0 +1,70 @@
+Arguments: 
+  D:\软件相关\WORK\node\node.exe C:\Users\31705\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react react-dom
+
+PATH: 
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\软件相关\WORK\node\;D:;软件相关\WORK\Git\Git\cmd;C:\Program Files\Git\cmd;D:\软件相关\WORK\TortoiseGit\bin;D:\java\jdk1.8.0_45\bin;D:\java\jdk1.8.0_45\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\软件相关\vscode\Microsoft VS Code\bin;D:\wamp\bin\php\php7.1.22;D:\wamp\bin\composer;C:\Users\31705\AppData\Local\Yarn\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\软件相关\TortoiseSVN\bin;C:\Users\31705\AppData\Local\Microsoft\WindowsApps;D:\软件相关\vscode\Microsoft VS Code\bin;C:\Users\31705\AppData\Roaming\npm;C:\Users\31705\AppData\Roaming\Composer\vendor\bin;C:\Users\31705\AppData\Local\BypassRuntm
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.3.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.22.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1161:14)
+
+npm manifest: 
+  {
+      "name": "my",
+      "version": "1.0.0",
+      "description": "",
+      "private": true,
+      "dependencies": {
+          "@babel/core": "^7.10.2",
+          "babel-plugin-import": "^1.13.0",
+          "babel-plugin-module-resolver": "^4.0.0",
+          "lodash": "^4.17.15"
+      },
+      "devDependencies": {
+          "babel-core": "^6.26.3",
+          "babel-loader": "^8.1.0",
+          "babel-preset-env": "^1.7.0",
+          "clean-webpack-plugin": "^3.0.0",
+          "cross-env": "^7.0.2",
+          "css-loader": "^3.5.3",
+          "csv-loader": "^3.0.3",
+          "express": "^4.17.1",
+          "file-loader": "^6.0.0",
+          "html-webpack-plugin": "^4.3.0",
+          "style-loader": "^1.2.1",
+          "ts-loader": "^7.0.4",
+          "typescript": "^3.9.3",
+          "webpack": "^4.43.0",
+          "webpack-cli": "^3.3.11",
+          "webpack-dev-middleware": "^3.7.2",
+          "webpack-dev-server": "^3.11.0",
+          "webpack-merge": "^4.2.2",
+          "xml-loader": "^1.2.1"
+      },
+      "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1",
+          "build": "webpack --config webpack.prod.js",
+          "watch": "webpack --watch",
+          "start": "webpack-dev-server  --open --config webpack.dev.js",
+          "server": "node serve.js",
+          "analyze": "cross-env ANALYZE=1 webpack"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
